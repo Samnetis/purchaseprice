@@ -8,9 +8,9 @@ import seaborn as sns
 import os
 
 # Define file paths
-model_path = r'C:\Users\wealt\Documents\machine learning\Car_Price_Prediction\Models\car_price_prediction_bagging_model.pkl'
-label_encoders_path = r'C:\Users\wealt\Documents\machine learning\Car_Price_Prediction\Models\label_encoders.pkl'
-scalers_path = r'C:\Users\wealt\Documents\machine learning\Car_Price_Prediction\Models\scalers.pkl'
+model_path = r'C:\Users\wealt\Documents\machine learning\Car_Price_Prediction\Models\car_price_prediction_bagging_model.pkl',
+label_encoders_path = r'C:\Users\wealt\Documents\machine learning\Car_Price_Prediction\Models\label_encoders.pkl',
+scalers_path = r'C:\Users\wealt\Documents\machine learning\Car_Price_Prediction\Models\scalers.pkl',
 data = pd.read_csv(
     r'C:\Users\wealt\Documents\machine learning\Car_Price_Prediction\Car_Price_files\Prediction_Dataset\car_dekho_cleaned_dataset.csv',
     low_memory=False
@@ -154,7 +154,7 @@ user_input_data = {
     'oem': [selected_oem],
     'model': [selected_model],
     'modelYear': [modelYear],
-    'variantName': [selected_variant],
+    'variant name': [selected_variant],
     'City': [city],
     'mileage': [mileage],
     'Seats': [seat_count],
